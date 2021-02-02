@@ -8,11 +8,13 @@
 - [Problem 5](#problem-5)
 
 ## Problem 1
+
 Suppose I design a processor that consumes 65 watts of power (This is total power) while running
 at 2 GHz. How much dynamic power would the same processor consume if I increase its
 frequency to 5 GHz? (10 points)
 
 ## Problem 2
+
 I have a processor X that runs at 2 GHz and a program (Program A) that has a CPI of 3. If the
 program completes 5 billion instructions from start to finish, how long did this program run for?
 I get another processor Y from the market, that has a clock frequency of 4 GHz. Program A on
@@ -20,18 +22,22 @@ this new processor executes 8 billion instructions with an average CPI of 5. Wha
 (if any) of program A on processor Y over processor X? (20 points)
 
 ## Problem 3
+
 Assume that I build a processor that runs at 1 GHz. Program A executes 7 billion instructions on
 this processor and has an average CPI of 1.5. Now, I changed the design of the processor so that
 I can run it at 2 GHz, dropping the execution time of Program A to a quarter of the original value.
 What is the average CPI of Program A on the new design? (20 points)
 
 ## Problem 4
+
 We have a processor with two cores. Program A completes in 4 seconds on core 1 and has a CPI
 of 8 and program B completes in 5 seconds on core 2 and has a CPI of 5. Both cores run at 1 GHz.
 What is the combined throughput of the processor? (20 points)
 
 ## Problem 5
+
 Implement a program to find the factorial of numbers from 1 to 100 in C in the following manner:
+
 1. Using recursion
 2. Using loop
 3. Using recursion and memoization
@@ -59,9 +65,23 @@ To recreate the results:
     
 The results can be seen in the "results.txt" file. A sample data can be accessed [here](./Problem%205/results.txt).
 
-- Results: 🌟
-    - Order of time taken: Recursion > Loop > Recursion and Memoization > Loop and Memoization.
-    - Speed Up: 
-      1. Recursion - Baseline
-      2. Loop - 
+|             | Time (nanoseconds) |         |                                                 |
+|-------------|--------------------|---------|---------------------------|----------------------|
+| Experiments | Recursion          | Loop    | Recursion and Memoization | Loop and Memoization |
+| 1           | 14386              | 12331   | 1600                      | 651                  |
+| 2           | 20260              | 12213   | 968                       | 641                  |
+| 3           | 24810              | 11127   | 1005                      | 667                  |
+| 4           | 14343              | 12329   | 1141                      | 401                  |
+| 5           | 14453              | 11197   | 1590                      | 402                  |
+| Average     | 17650.4            | 11839.4 | 1260.8                    | 552.4                |
+| Speed Up    | 1                  | 1.49    | 14                        | 31.95                |
+
+- **Results:** 🌟
+
+1. Order of time taken: Recursion > Loop > Recursion and Memoization > Loop and Memoization.
+
+2. A drastic reduction in time can be noticed between normal computation and that of the memoized version of the same. In the memoized version, previously computed values of factorial are stored in arrays and is used for finding the next factorial values. Thus reducing the computational time involved in the complexity. and hence reduction in the time.
+   
+3. Order of speedup: Recursion < Loop < Recursion and Memoization < Loop and Memoization.
+    
 
