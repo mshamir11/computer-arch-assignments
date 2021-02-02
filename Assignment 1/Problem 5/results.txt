@@ -14,3 +14,67 @@ Total time = 1600 nanoseconds
 Experiment 4 : Using Loop and Memoization
 Total time = 651 nanoseconds
 
+===========================================================
+Experiment 1 : Using Recursion
+Total time = 20260 nanoseconds
+
+===========================================================
+Experiment 2 : Using Loop
+Total time = 12213 nanoseconds
+
+===========================================================
+Experiment 3 : Using Recursion and Memoization
+Total time = 968 nanoseconds
+
+===========================================================
+Experiment 4 : Using Loop and Memoization
+Total time = 641 nanoseconds
+
+===========================================================
+Experiment 1 : Using Recursion
+Total time = 24810 nanoseconds
+
+===========================================================
+Experiment 2 : Using Loop
+Total time = 11127 nanoseconds
+
+===========================================================
+Experiment 3 : Using Recursion and Memoization
+Total time = 1005 nanoseconds
+
+===========================================================
+Experiment 4 : Using Loop and Memoization
+Total time = 667 nanoseconds
+
+===========================================================
+Experiment 1 : Using Recursion
+Total time = 14343 nanoseconds
+
+===========================================================
+Experiment 2 : Using Loop
+Total time = 12329 nanoseconds
+
+===========================================================
+Experiment 3 : Using Recursion and Memoization
+Total time = 1141 nanoseconds
+
+===========================================================
+Experiment 4 : Using Loop and Memoization
+Total time = 401 nanoseconds
+
+===========================================================
+Experiment 1 : Using Recursion
+Total time = 14453 nanoseconds
+
+===========================================================
+Experiment 2 : Using Loop
+Total time = 11197 nanoseconds
+
+===========================================================
+Experiment 3 : Using Recursion and Memoization
+Total time = 1590 nanoseconds
+
+===========================================================
+Experiment 4 : Using Loop and Memoization
+Total time = 402 nanoseconds
+
