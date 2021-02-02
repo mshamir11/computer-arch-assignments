@@ -65,22 +65,6 @@ To recreate the results:
     
 The results can be seen in the "results.txt" file. A sample data can be accessed [here](./Problem%205/results.txt).
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-tm7f{background-color:#FF0;border-color:#000000;color:#333;font-weight:bold;text-align:center;vertical-align:bottom}
-.tg .tg-k3q9{border-color:#000000;color:#333;text-align:center;vertical-align:bottom}
-.tg .tg-spog{background-color:#fcff2f;border-color:inherit;color:#333;font-weight:bold;text-align:left;vertical-align:bottom}
-.tg .tg-2m2l{background-color:#FF0;border-color:inherit;color:#333;font-weight:bold;text-align:center;vertical-align:bottom}
-.tg .tg-29th{background-color:#D9D9D9;border-color:inherit;color:#333;text-align:center;vertical-align:bottom}
-.tg .tg-n5qg{background-color:#9698ed;border-color:inherit;color:#333;font-weight:bold;text-align:center;vertical-align:bottom}
-.tg .tg-2yxd{background-color:#9698ed;border-color:#000000;color:#333;text-align:center;vertical-align:bottom}
-.tg .tg-xoi0{background-color:#9b9b9b;border-color:inherit;color:#333;font-weight:bold;text-align:center;vertical-align:bottom}
-.tg .tg-dhox{background-color:#9b9b9b;border-color:#000000;color:#333;text-align:center;vertical-align:bottom}
-</style>
 <table class="tg">
 <thead>
   <tr>
