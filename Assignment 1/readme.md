@@ -65,20 +65,91 @@ To recreate the results:
     
 The results can be seen in the "results.txt" file. A sample data can be accessed [here](./Problem%205/results.txt).
 
-|             | Time (nanoseconds) |         |                                                 |
-|-------------|--------------------|---------|---------------------------|----------------------|
-| Experiments | Recursion          | Loop    | Recursion and Memoization | Loop and Memoization |
-| 1           | 14386              | 12331   | 1600                      | 651                  |
-| 2           | 20260              | 12213   | 968                       | 641                  |
-| 3           | 24810              | 11127   | 1005                      | 667                  |
-| 4           | 14343              | 12329   | 1141                      | 401                  |
-| 5           | 14453              | 11197   | 1590                      | 402                  |
-| Average     | 17650.4            | 11839.4 | 1260.8                    | 552.4                |
-| Speed Up    | 1                  | 1.49    | 14                        | 31.95                |
-
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-tm7f{background-color:#FF0;border-color:#000000;color:#333;font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-k3q9{border-color:#000000;color:#333;text-align:center;vertical-align:bottom}
+.tg .tg-spog{background-color:#fcff2f;border-color:inherit;color:#333;font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-2m2l{background-color:#FF0;border-color:inherit;color:#333;font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-29th{background-color:#D9D9D9;border-color:inherit;color:#333;text-align:center;vertical-align:bottom}
+.tg .tg-n5qg{background-color:#9698ed;border-color:inherit;color:#333;font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-2yxd{background-color:#9698ed;border-color:#000000;color:#333;text-align:center;vertical-align:bottom}
+.tg .tg-xoi0{background-color:#9b9b9b;border-color:inherit;color:#333;font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-dhox{background-color:#9b9b9b;border-color:#000000;color:#333;text-align:center;vertical-align:bottom}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-spog"></th>
+    <th class="tg-tm7f" colspan="4"><span style="font-weight:bold;background-color:#FF0">Time (nanoseconds)</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-2m2l"><span style="font-weight:bold;background-color:#FF0">Experiments</span></td>
+    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0">Recursion</span></td>
+    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0">Loop</span></td>
+    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0">Recursion and Memoization</span></td>
+    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0">Loop and Memoization</span></td>
+  </tr>
+  <tr>
+    <td class="tg-29th"><span style="background-color:#D9D9D9">1</span></td>
+    <td class="tg-k3q9">14386</td>
+    <td class="tg-k3q9">12331</td>
+    <td class="tg-k3q9">1600</td>
+    <td class="tg-k3q9">651</td>
+  </tr>
+  <tr>
+    <td class="tg-29th"><span style="background-color:#D9D9D9">2</span></td>
+    <td class="tg-k3q9">20260</td>
+    <td class="tg-k3q9">12213</td>
+    <td class="tg-k3q9">968</td>
+    <td class="tg-k3q9">641</td>
+  </tr>
+  <tr>
+    <td class="tg-29th"><span style="background-color:#D9D9D9">3</span></td>
+    <td class="tg-k3q9">24810</td>
+    <td class="tg-k3q9">11127</td>
+    <td class="tg-k3q9">1005</td>
+    <td class="tg-k3q9">667</td>
+  </tr>
+  <tr>
+    <td class="tg-29th"><span style="background-color:#D9D9D9">4</span></td>
+    <td class="tg-k3q9">14343</td>
+    <td class="tg-k3q9">12329</td>
+    <td class="tg-k3q9">1141</td>
+    <td class="tg-k3q9">401</td>
+  </tr>
+  <tr>
+    <td class="tg-29th"><span style="background-color:#D9D9D9">5</span></td>
+    <td class="tg-k3q9">14453</td>
+    <td class="tg-k3q9">11197</td>
+    <td class="tg-k3q9">1590</td>
+    <td class="tg-k3q9">402</td>
+  </tr>
+  <tr>
+    <td class="tg-n5qg"><span style="font-weight:bold">Average</span></td>
+    <td class="tg-2yxd">17650.4</td>
+    <td class="tg-2yxd">11839.4</td>
+    <td class="tg-2yxd">1260.8</td>
+    <td class="tg-2yxd">552.4</td>
+  </tr>
+  <tr>
+    <td class="tg-xoi0"><span style="font-weight:bold">Speed Up</span></td>
+    <td class="tg-dhox">1</td>
+    <td class="tg-dhox">1.49</td>
+    <td class="tg-dhox">14</td>
+    <td class="tg-dhox">31.95</td>
+  </tr>
+</tbody>
+</table>
 - **Results:** 🌟
 
-1. Order of time taken: Recursion > Loop > Recursion and Memoization > Loop and Memoization.
+1. Order of time ttime takenaken: Recursion > Loop > Recursion and Memoization > Loop and Memoization.
 
 2. A drastic reduction in time can be noticed between normal computation and that of the memoized version of the same. In the memoized version, previously computed values of factorial are stored in arrays and is used for finding the next factorial values. Thus reducing the computational time involved in the complexity. and hence reduction in the time.
    
