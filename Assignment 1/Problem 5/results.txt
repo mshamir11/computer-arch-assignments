@@ -1,0 +1,16 @@
+===========================================================
+Experiment 1 : Using Recursion
+Total time = 14386 nanoseconds
+
+===========================================================
+Experiment 2 : Using Loop
+Total time = 12331 nanoseconds
+
+===========================================================
+Experiment 3 : Using Recursion and Memoization
+Total time = 1600 nanoseconds
+
+===========================================================
+Experiment 4 : Using Loop and Memoization
+Total time = 651 nanoseconds
+
