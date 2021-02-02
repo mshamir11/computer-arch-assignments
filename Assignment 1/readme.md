@@ -116,14 +116,14 @@ The results can be seen in the "results.txt" file. A sample data can be accessed
     <td class="tg-k3q9">402</td>
   </tr>
   <tr>
-    <td class="tg-n5qg"><span style="font-weight:bold">Average</span></td>
+    <td class="tg-n5qg"><span style="font-weight:bold"><b>Average</b></span></td>
     <td class="tg-2yxd">17650.4</td>
     <td class="tg-2yxd">11839.4</td>
     <td class="tg-2yxd">1260.8</td>
     <td class="tg-2yxd">552.4</td>
   </tr>
   <tr>
-    <td class="tg-xoi0"><span style="font-weight:bold">Speed Up</span></td>
+    <td class="tg-xoi0"><span style="font-weight:bold"><b>Speed Up</b></span></td>
     <td class="tg-dhox">1</td>
     <td class="tg-dhox">1.49</td>
     <td class="tg-dhox">14</td>
