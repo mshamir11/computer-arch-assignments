@@ -1,3 +1,12 @@
+/* 
+Reference for calculating time:
+
+https://www.cs.rutgers.edu/~pxk/416/notes/c-tutorials/gettime.html
+
+*/
+
+
+
 #include <stdio.h>	/* for printf */
 #include <stdint.h>	/* for uint64 definition */
 #include <stdlib.h>	/* for exit() definition */
