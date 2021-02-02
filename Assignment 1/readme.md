@@ -69,16 +69,16 @@ The results can be seen in the "results.txt" file. A sample data can be accessed
 <thead>
   <tr>
     <th class="tg-spog"></th>
-    <th class="tg-tm7f" colspan="4"><span style="font-weight:bold;background-color:#FF0">Time (nanoseconds)</span></th>
+    <th class="tg-tm7f" colspan="4"><span style="font-weight:bold;background-color:#FF0"><b>Time (nanoseconds)</b></span></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-2m2l"><span style="font-weight:bold;background-color:#FF0">Experiments</span></td>
-    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0">Recursion</span></td>
-    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0">Loop</span></td>
-    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0">Recursion and Memoization</span></td>
-    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0">Loop and Memoization</span></td>
+    <td class="tg-2m2l"><span style="font-weight:bold;background-color:#FF0"><b>Experiments</b></span></td>
+    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0"><b>Recursion</b></span></td>
+    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0"><b>Loop</span></td>
+    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0"><b>Recursion and Memoization</b></span></td>
+    <td class="tg-tm7f"><span style="font-weight:bold;background-color:#FF0"><b>Loop and Memoization</b></span></td>
   </tr>
   <tr>
     <td class="tg-29th"><span style="background-color:#D9D9D9">1</span></td>
