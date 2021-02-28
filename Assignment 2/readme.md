@@ -1,5 +1,6 @@
 # 1711008 | Mohamed Shamir <!-- omit in toc -->
 
+<span style="color:red">Note: Please visit the github repository for codes. [Link](https://github.com/mshamir11/computer-arch-assignments/tree/master/Assignment%202)</span>.
 
 ## Contents <!-- omit in toc -->
 - [Problem 1](#problem-1)
